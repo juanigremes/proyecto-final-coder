@@ -1,0 +1,52 @@
+body {
+    background-color: #282a29;
+}
+
+a {
+    text-decoration: none;
+    color: #e8e34c;
+    margin: 10px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.menuNav {
+    display: inline-block;
+}
+
+img {
+    height: 150px;
+}
+
+.limiteMenu {
+    border-bottom: 1px #e8e34c solid;
+    height: 155px;
+}
+
+.gorilas {
+    color: #e8e34c;
+}
+
+.sobreNosotros {
+    border: 1px white solid;
+    padding: 5px;
+}
+
+/* Contacto */
+
+form {
+    color: #e8e34c;
+}
+
+.contactoFooter {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    
+}
+
+footer {
+    border-top: 1px #e8e34c solid;
+}
