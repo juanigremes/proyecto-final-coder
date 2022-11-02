@@ -1,22 +1,24 @@
-body {
+/* .colorFondo {
+    background-color: #282a29;
+} */
+
+/* .nav-link {
+    color: #e8e34c;
+} */
+
+main {
     background-color: #282a29;
 }
 
-a {
-    text-decoration: none;
+footer {
+    background-color: #282a29;
+}
+
+.color {
     color: #e8e34c;
-    margin: 10px;
 }
 
-ul li {
-    display: inline-block;
-}
-
-.menuNav {
-    display: inline-block;
-}
-
-img {
+.logo {
     height: 150px;
 }
 
@@ -30,23 +32,42 @@ img {
 }
 
 .sobreNosotros {
-    border: 1px white solid;
-    padding: 5px;
+    border: 4px white solid;
+    padding: 10px;
+    margin-left: 40px;
+    width: 500px;
+    display: inline-block;
 }
 
+
+/* CAROUSEL */
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel {
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+}
 /* Contacto */
 
 form {
     color: #e8e34c;
 }
 
-.contactoFooter {
-    display: inline-block;
-    position: absolute;
-    right: 20px;
-    
-}
-
 footer {
     border-top: 1px #e8e34c solid;
+}
+
+.derechos {
+    display: inline-block;
+}
+
+
+/* MENU */
+
+.hamburguesasMenu {
+    height: 200px;
 }

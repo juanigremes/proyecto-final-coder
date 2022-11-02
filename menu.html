@@ -15,19 +15,36 @@
 <body>
 
     <header>
-        <nav class="limiteMenu">
-            <ul class="menuNav">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="menu.html">Menú</a></li>
-            </ul>
+       
+        <!-- NAVBAR -->
 
-            <img src="img/gorilas logo .png" alt="logo empresa">
+        <nav class="navbar navbar-expand-lg colorFondo">
 
-            <ul class="menuNav">
-                <li><a href="carrito.html">Carrito</a></li>
-                <li><a href="contacto.html">Contactanos</a></li>
-            </ul>
+            <a href="index.html"><img src="img/gorilas logo .png" alt="logo empresa" class="logo"></a>
+
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="menu.html">Menú</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Carrito</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contactanos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
         </nav>
+
+          <!-- NAVBAR -->
+
     </header>
 
 
@@ -35,40 +52,51 @@
     <main>
         <h1 class="gorilas">Gorilas</h1>
         <br>
-        <h2>Menú</h2>
-        <br>
-        <div>
-            <h3>nombreHamburguesa</h3>
-            <p>descripcionHamburguesa</p>
-        </div>
-        <br>
-        <div>
-            <h3>nombreHamburguesa</h3>
-            <p>descripcionHamburguesa</p>
-        </div>
-        <br>
-        <div>
-            <h3>nombreHamburguesa</h3>
-            <p>descripcionHamburguesa</p>
-        </div>
-        <br>
-        <div>
-            <h3>nombreHamburguesa</h3>
-            <p>descripcionHamburguesa</p>
-        </div>
+        <h2 class="color">Menú</h2>
         <br>
 
+        <div class="row">
+            <div class="col-xl-6 col-sm-12">
+                <h3 class="color">nombreHamburguesa</h3>
+                <p class="color">descripcionHamburguesa</p>
+                <img src="img/foto hamburguesa ejemplo.PNG" alt="foto hamburguesa ejemplo" class="hamburguesasMenu">
+            </div>
+        
+            <div class="col-xl-6 col-sm-12">
+                <h3 class="color">nombreHamburguesa</h3>
+                <p class="color">descripcionHamburguesa</p>
+                <img src="img/foto hamburguesa ejemplo.PNG" alt="foto hamburguesa ejemplo" class="hamburguesasMenu">
+            </div>
+        
+            <div class="col-xl-6 col-sm-12">
+                <h3 class="color">nombreHamburguesa</h3>
+                <p class="color">descripcionHamburguesa</p>
+                <img src="img/foto hamburguesa ejemplo.PNG" alt="foto hamburguesa ejemplo" class="hamburguesasMenu">
+            </div>
+        
+            <div class="col-xl-6 col-sm-12">
+                <h3 class="color">nombreHamburguesa</h3>
+                <p class="color">descripcionHamburguesa</p>
+                <img src="img/foto hamburguesa ejemplo.PNG" alt="foto hamburguesa ejemplo" class="hamburguesasMenu">
+            </div>
+        </div>
 
     </main>
     
     <footer>
-        <div>
-            <div class="contactoFooter">
-                <a href="https://www.instagram.com/gorilas.tm/" target="_blank">Instagram</a>
-                <a href="https://twitter.com/coderhouse" target="_blank">Twitter</a>
-                <a href="contacto.html">Contactanos</a>
-            </div>
-        </div>
+
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://www.instagram.com/gorilas.tm/" target="_blank">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/coderhouse" target="_blank">Twitter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactanos</a>
+            </li>
+        </ul>
+
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
