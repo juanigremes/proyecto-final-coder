@@ -1,10 +1,3 @@
-/* .colorFondo {
-    background-color: #282a29;
-} */
-
-/* .nav-link {
-    color: #e8e34c;
-} */
 
 main {
     background-color: #282a29;
@@ -42,6 +35,9 @@ footer {
 
 /* CAROUSEL */
 
+/* ESTOY PROBANDO MODIFICARLO, PERO ME SACA LO RESPONSIVE SI LO DEJO ACTIVADO */
+
+/* 
 .carousel-item {
     height: 500px;
 }
@@ -50,7 +46,8 @@ footer {
     height: 500px;
     width: 500px;
     display: inline-block;
-}
+} */
+
 /* Contacto */
 
 form {
@@ -70,4 +67,11 @@ footer {
 
 .hamburguesasMenu {
     height: 200px;
+}
+
+
+
+
+.enviarPedido {
+    margin-bottom: 5px;
 }
