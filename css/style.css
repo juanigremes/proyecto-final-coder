@@ -1,112 +1,16 @@
-
-main {
-    background-color: #282a29;
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap"); /*estilos generales*/
+html body {
+  background-color: #282a29;
+  color: #f1e74d;
+  font-family: "Sono", sans-serif;
 }
 
-footer {
-    background-color: #282a29;
+/*HEADER*/
+.encabezado .logo {
+  max-height: 13rem;
+}
+.encabezado .navbar li :hover {
+  color: #f1e74d;
 }
 
-.color {
-    color: #e8e34c;
-}
-
-.logo {
-    height: 150px;
-}
-
-.limiteMenu {
-    border-bottom: 1px #e8e34c solid;
-    height: 155px;
-}
-
-.gorilas {
-    color: #e8e34c;
-}
-
-
-
-
-/* CAROUSEL */
-
-.carousel {
-    height: 30%;
-}
-
-/* Contacto */
-
-form {
-    color: #e8e34c;
-}
-
-footer {
-    border-top: 1px #e8e34c solid;
-}
-
-.derechos {
-    display: inline-block;
-}
-
-
-/* MENU */
-
-.hamburguesasMenu {
-    height: 10rem;
-    
-}
-
-.animacion {
-    border: #e8e34c 1px solid;
-    height: 100%;
-    background-color: #282a29;
-}
-
-.animacion:hover {
-    height: 105%;
-    width: 105%;
-    transition: height 1s, width 1s;
-}
-
-.animacionDos {
-    border: #e8e34c 1px solid;
-    display: inline-block;
-    padding: 1rem;
-}
-
-
-.enviarPedido {
-    margin-bottom: 5px;
-}
-
-
-
-
-
-
-.sobreNosotros {
-    border: 4px white solid;
-    padding: 10px;
-    margin-left: 40px;
-    width: 80%;
-    display: inline-block;
-} 
-
-@media (min-width: 1024px){
-
-    .sobreNosotros {
-        border: 4px white solid;
-        padding: 10px;
-        margin-left: 40px;
-        width: 40%;
-        display: inline-block;
-    } 
-
-    .carousel {
-       display: inline-flex;
-        width: 40%;
-        height: 40%;
-    }
-
-}
-
-
+/*# sourceMappingURL=style.css.map */

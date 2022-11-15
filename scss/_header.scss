@@ -1,0 +1,16 @@
+/*HEADER*/ 
+
+.encabezado {
+
+    .logo{
+        max-height: 13rem;
+    }
+
+    .navbar {
+        li {
+            :hover {
+                color: $color-fuentes;
+            }
+        }
+    }
+}
