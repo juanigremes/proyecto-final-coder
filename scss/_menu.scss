@@ -1,0 +1,37 @@
+/*MENU*/
+
+.introMenu {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.opcionMenu {
+    
+    
+    z-index: 1;
+
+    :hover {
+        z-index: 100;
+        transform: scale(1.01);
+        background-color: #242625;
+    }
+
+    .hamburguesasMenu {
+        max-height: 15rem;
+    }
+
+    h3 {
+        display: inline;
+    }
+
+    p {
+        display: inline;
+    }
+
+}
+
+

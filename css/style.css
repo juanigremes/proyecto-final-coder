@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap"); /*estilos generales*/
+/*FUENTES*/
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap");
+/*estilos generales*/
 html body {
   background-color: #282a29;
   color: #f1e74d;
@@ -11,6 +13,54 @@ html body {
 }
 .encabezado .navbar li :hover {
   color: #f1e74d;
+}
+
+/*FOOTER*/
+footer li a {
+  text-decoration: none;
+  color: #f1e74d;
+}
+
+/*MENU*/
+.introMenu {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opcionMenu {
+  z-index: 1;
+}
+.opcionMenu :hover {
+  z-index: 100;
+  transform: scale(1.01);
+  background-color: #242625;
+}
+.opcionMenu .hamburguesasMenu {
+  max-height: 15rem;
+}
+.opcionMenu h3 {
+  display: inline;
+}
+.opcionMenu p {
+  display: inline;
+}
+
+/*INICIO*/
+.sobreNosotros {
+  border: 0.1rem solid #f1e74d;
+  border-radius: 0.6rem;
+  max-width: 50rem;
+}
+
+.carousel {
+  max-width: 50rem;
+  max-height: 50rem;
+}
+.carousel .img {
+  max-height: 50rem;
+  max-width: 50rem;
 }
 
 /*# sourceMappingURL=style.css.map */
