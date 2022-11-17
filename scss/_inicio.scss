@@ -1,19 +1,25 @@
 /*INICIO*/
+
+
+
+.introIndex {
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridPadre {
+    display: flex;
+}
 .sobreNosotros {
     border: 0.1rem solid $color-fuentes;
     border-radius: 0.6rem;
-    max-width: 50rem;
-    
+    margin: 1rem;
+    width: 60%;
+    height: max-content;
 }
 
-.carousel {
-    max-width: 50rem;
-    max-height: 50rem;
-    
-    .img {
-        max-height: 50rem;
-        max-width: 50rem;
-    }
-    
+.hijoDos{
+    width: 25%;
 }
-

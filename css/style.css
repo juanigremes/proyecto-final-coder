@@ -32,35 +32,52 @@ footer li a {
 .opcionMenu {
   z-index: 1;
 }
+.opcionMenu .flexPadre {
+  display: flex;
+  flex-direction: column;
+}
+.opcionMenu .fotoFlex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.opcionMenu .fotoFlex .cart {
+  margin: 1rem;
+}
+.opcionMenu .hamburguesasMenu {
+  max-height: 15rem;
+}
+.opcionMenu p {
+  display: inline;
+}
 .opcionMenu :hover {
   z-index: 100;
   transform: scale(1.01);
   background-color: #242625;
 }
-.opcionMenu .hamburguesasMenu {
-  max-height: 15rem;
-}
-.opcionMenu h3 {
-  display: inline;
-}
-.opcionMenu p {
-  display: inline;
-}
 
 /*INICIO*/
+.introIndex {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridPadre {
+  display: flex;
+}
+
 .sobreNosotros {
   border: 0.1rem solid #f1e74d;
   border-radius: 0.6rem;
-  max-width: 50rem;
+  margin: 1rem;
+  width: 60%;
+  height: max-content;
 }
 
-.carousel {
-  max-width: 50rem;
-  max-height: 50rem;
-}
-.carousel .img {
-  max-height: 50rem;
-  max-width: 50rem;
+.hijoDos {
+  width: 25%;
 }
 
 /*# sourceMappingURL=style.css.map */

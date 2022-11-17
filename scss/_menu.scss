@@ -7,31 +7,43 @@
     align-items: center;
 }
 
-
-
-.opcionMenu {
-    
-    
-    z-index: 1;
-
+@mixin animacion {
     :hover {
         z-index: 100;
         transform: scale(1.01);
         background-color: #242625;
     }
+}
+
+
+.opcionMenu {
+
+
+    .flexPadre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotoFlex {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        .cart{
+            margin: 1rem;
+        }
+    }
 
     .hamburguesasMenu {
         max-height: 15rem;
-    }
 
-    h3 {
-        display: inline;
     }
 
     p {
         display: inline;
     }
 
+    z-index: 1;
+
+    @include animacion;
+
 }
-
-
