@@ -23,37 +23,19 @@ footer li a {
 
 /*MENU*/
 .introMenu {
-  height: 10rem;
+  height: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.opcionMenu {
-  z-index: 1;
+.card-body {
+  background-color: #414443;
 }
-.opcionMenu .flexPadre {
-  display: flex;
-  flex-direction: column;
-}
-.opcionMenu .fotoFlex {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.opcionMenu .fotoFlex .cart {
-  margin: 1rem;
-}
-.opcionMenu .hamburguesasMenu {
-  max-height: 15rem;
-}
-.opcionMenu p {
-  display: inline;
-}
-.opcionMenu :hover {
-  z-index: 100;
-  transform: scale(1.01);
-  background-color: #242625;
+
+.color {
+  color: white;
+  margin: 2rem;
 }
 
 /*INICIO*/
@@ -78,6 +60,10 @@ footer li a {
 
 .hijoDos {
   width: 25%;
+}
+
+.cuadroContacto {
+  margin: 2.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

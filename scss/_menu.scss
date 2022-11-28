@@ -1,49 +1,20 @@
 /*MENU*/
 
 .introMenu {
-    height: 10rem;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-@mixin animacion {
-    :hover {
-        z-index: 100;
-        transform: scale(1.01);
-        background-color: #242625;
-    }
+
+
+.card-body {
+    background-color: #414443;
+
 }
 
-
-.opcionMenu {
-
-
-    .flexPadre {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fotoFlex {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        .cart{
-            margin: 1rem;
-        }
-    }
-
-    .hamburguesasMenu {
-        max-height: 15rem;
-
-    }
-
-    p {
-        display: inline;
-    }
-
-    z-index: 1;
-
-    @include animacion;
-
+.color {
+    color: white;
+    margin: 2rem;
 }
