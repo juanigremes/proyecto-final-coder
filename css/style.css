@@ -25,7 +25,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 40px;
+  height: 1%;
 }
 footer li a {
   text-decoration: none;
@@ -57,20 +57,20 @@ footer li a {
   align-items: center;
 }
 
-.gridPadre {
-  display: flex;
-}
-
-.sobreNosotros {
+.contenedor .sobreNosotros {
   border: 0.1rem solid #f1e74d;
   border-radius: 0.6rem;
-  margin: 1rem;
-  width: 60%;
   height: max-content;
+  padding: 1%;
+  padding-top: 2%;
+  margin: 5%;
+  margin-top: 0;
 }
-
-.hijoDos {
-  width: 25%;
+@media (min-width: 768px) and (max-width: 992px) {
+  .contenedor .sobreNosotros .img {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 }
 
 /*CONTACTO*/
@@ -86,6 +86,13 @@ footer li a {
 }
 .border .cuadroContacto .enviar {
   margin-top: 0.5rem;
+}
+
+/*PAGO*/
+.confirmarCompra {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

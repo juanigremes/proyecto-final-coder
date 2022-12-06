@@ -6,18 +6,24 @@
     align-items: center;
 }
 
-.gridPadre {
-    display: flex;
-}
-.sobreNosotros {
-    border: 0.1rem solid $color-fuentes;
-    border-radius: 0.6rem;
-    margin: 1rem;
-    width: 60%;
-    height: max-content;
+
+.contenedor {
+    .sobreNosotros {
+        border: 0.1rem solid $color-fuentes;
+        border-radius: 0.6rem;
+        height: max-content;
+        padding: 1%;
+        padding-top: 2%;
+        margin: 5%;
+        margin-top: 0;
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            .img {
+                margin-left: 25%;
+                margin-right: 25%;
+            }
+        }
+    }
     
 }
 
-.hijoDos{
-    width: 25%;
-}
