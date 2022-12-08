@@ -1,15 +1,38 @@
-/*HEADER*/ 
+/*HEADER*/
 .encabezado {
 
-    .logo{
+    .logo {
         max-height: 13rem;
     }
 
     .navbar {
         li {
-            :hover {
-                color: $color-fuentes;
+            @media (min-width: 992px) {
+                a::after {
+                    content: "";
+                    height: 0.05rem;
+                    background: #f1e74d;
+                    display: block;
+                    transition: width 0.2s ease-in-out;
+                    margin: 0 auto;
+                }
+
+                a::after {
+                    width: 0;
+                }
+
+                a:hover::after {
+                    width: 100%;
+                }
+
             }
+
+            @media (max-width: 991px) {
+                :hover {
+                    color: #f1e74d;
+                }
+            }
+
         }
     }
 }

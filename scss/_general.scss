@@ -4,7 +4,7 @@ html {
     body {
         background-color: $color-fondo;
         color: $color-fuentes;
-        font-family: 'Sono', sans-serif; 
+        font-family: 'Sono', sans-serif;
     }
 
     min-height: 100%;
@@ -13,3 +13,11 @@ html {
     overflow-x: hidden;
 }
 
+.intro {
+
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
