@@ -71,6 +71,10 @@ footer li a {
   margin: 2rem;
 }
 
+.modal {
+  color: black;
+}
+
 /*INICIO*/
 .contenedor .sobreNosotros {
   border: 0.1rem solid #f1e74d;
