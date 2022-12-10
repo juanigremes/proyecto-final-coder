@@ -90,6 +90,9 @@ footer li a {
 .contenedor .sobreNosotros .instagram {
   color: #f1e74d;
 }
+.contenedor .sobreNosotros .logo .fotoLogo {
+  max-width: 100%;
+}
 
 /*CONTACTO*/
 .border {
